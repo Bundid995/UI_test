@@ -16,8 +16,8 @@ function css() {
     return src("app/scss/styles.scss")
       .pipe(scss())
       .pipe(minifycss())
-      .pipe(dest("app/css"))
-      .pipe(browsersync.stream());
+      .pipe(dest("app/css"));
+   
   }
   
 
