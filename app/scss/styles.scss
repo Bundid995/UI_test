@@ -1,0 +1,13 @@
+// styles.scss
+.carousel-item {
+    height: 745px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.warpper {
+    padding: 28px;
+    border-color: 1px solid red;
+}
